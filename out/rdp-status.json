@@ -1,48 +1,42 @@
 {
-  "active": false,
-  "hostname": "rdpfree-107",
-  "os": "Ubuntu 24.04.5 LTS (Linux Polos · SSH Server)",
-  "os_style": "Linux Polos (SSH Server)",
-  "linux_mode": "polos",
-  "rdp_port": 22,
-  "ssh_port": 22,
-  "rdp_user": "xyadmin",
-  "rdp_listen": "LISTENING :22 & :3389 (sshd)",
-  "started_at": "2026-10-17T15:16:06Z",
-  "expires_at": "2026-10-17T20:58:06Z",
-  "heartbeat_at": "2026-10-17T15:19:07Z",
-  "duration_menit": 342,
-  "run_id": "39044153680",
-  "run_attempt": "1",
-  "run_number": "107",
-  "run_url": "https://github.com/xykal/XyRDP/actions/runs/39044153680",
+  "active": true,
+  "hostname": "rdpfree-108",
+  "os": "Microsoft Windows Server 2022 Datacenter",
+  "os_build": "10.0.20348",
+  "os_style": "Native Windows",
   "hardware": {
+    "ram_gb": 16.0,
     "cpu_threads": 4,
-    "cpu_cores": 4,
-    "cpu_load_pct": 5,
-    "ram_gb": 15.6,
-    "ram_total_gb": 15.6,
-    "ram_used_gb": 1.0,
-    "disk_total_gb": 145,
-    "disk_free_gb": 85,
-    "disk_used_gb": 60,
-    "uptime_minutes": 3
+    "disk_free_gb": 82.9
   },
+  "rdp_port": 3389,
+  "rdp_user": "xyadmin",
+  "rdp_listen": ":::3389 (svchost) | 0.0.0.0:3389 (svchost) + handshake ok via 127.0.0.1",
+  "rdp_denyts": true,
+  "started_at": "2026-10-17T16:44:10Z",
+  "expires_at": "2026-10-17T22:26:10Z",
+  "duration_menit": 342,
+  "run_id": "39050679196",
+  "run_attempt": "1",
+  "run_number": "108",
+  "run_url": "https://github.com/xykal/XyRDP/actions/runs/39050679196",
+  "mode": "bersih+win10",
   "akses": {
     "mode": "tailscale",
     "tailscale": {
-      "status": "connected",
-      "ip": "100.96.128.15",
-      "hostname": "rdpfree-107",
-      "port": 22,
-      "ssh_port": 22,
-      "connect": "100.96.128.15:22"
+      "magicdns": "rdpfree-108.tail01cd7c.ts.net.",
+      "status": "ok",
+      "ip": "100.83.90.63",
+      "note": "HP/PC harus login Tailscale pada tailnet yang sama. TCP 3389 harus diizinkan ACL.",
+      "hostname": "rdpfree-108"
     },
     "tunnel": {
-      "type": "tailscale",
-      "host": "100.96.128.15",
-      "port": 22,
-      "connect": "100.96.128.15:22"
+      "port": 3389,
+      "host": "100.83.90.63",
+      "address": "100.83.90.63:3389",
+      "outside": "tailscale",
+      "selftest": "ok",
+      "status": "ok"
     }
   }
 }
